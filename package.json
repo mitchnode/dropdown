@@ -1,7 +1,7 @@
 {
   "name": "dropdown",
   "version": "1.0.0",
-  "description": "",
+  "description": "mouseover dropdown menu",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -9,7 +9,7 @@
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mitchnode",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
