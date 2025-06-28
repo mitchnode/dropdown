@@ -1,3 +1,30 @@
 body {
   background-color: slategray;
 }
+
+.dropdown {
+  width: 100px;
+}
+
+button.dropdown_button {
+  width: 100px;
+  height: 20px;
+  cursor: pointer;
+  border: 0px;
+}
+
+div.dropdown_content {
+  width: auto;
+  display: none;
+}
+
+div.dropdown_item {
+  width: auto;
+  background-color: wheat;
+  text-align: center;
+}
+
+div.dropdown_item:hover {
+  background-color: coral;
+  cursor: pointer;
+}
